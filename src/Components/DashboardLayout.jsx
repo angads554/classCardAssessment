@@ -70,7 +70,7 @@ const DashboardLayout = () => {
                 </svg>
                 Edit profile
               </button>
-              <button className="p-2 text-base font-normal text-gray-900 hover:bg-gray-300 rounded-lg flex items-center justify-start w-full">
+              <button className="p-2 text-base font-normal text-gray-500 hover:bg-gray-300 rounded-lg flex items-center justify-center w-full">
                 
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +86,7 @@ const DashboardLayout = () => {
                 </svg>
                 My calendar
               </button>
-              <button className="p-2 text-base font-normal text-gray-900 hover:bg-gray-300 rounded-lg flex items-center justify-start w-full">
+              <button className="p-2 text-base font-normal text-gray-500 hover:bg-gray-300 rounded-lg flex items-center  justify-center w-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -104,7 +104,7 @@ const DashboardLayout = () => {
                 My bookings
               </button>
 
-              <button className="p-2 text-base font-normal text-gray-900 hover:bg-gray-300 rounded-lg flex items-center justify-start w-full">
+              <button className="p-2 text-base font-normal text-gray-500 hover:bg-gray-300 rounded-lg flex items-center  justify-center w-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -122,7 +122,7 @@ const DashboardLayout = () => {
                 Attendance history
               </button>
 
-              <button className="p-2 text-base font-normal text-gray-900 hover:bg-gray-300 rounded-lg flex items-center justify-start w-full">
+              <button className="p-2 text-base font-normal text-gray-500 hover:bg-gray-300 rounded-lg flex items-center  justify-center w-full">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -140,7 +140,7 @@ const DashboardLayout = () => {
                 Billing history
               </button>
 
-              <button className="p-2 text-base font-normal text-gray-900 hover:bg-gray-300 rounded-lg flex items-center justify-start w-full">
+              <button className="p-2 text-base font-normal text-gray-500 hover:bg-gray-300 rounded-lg flex items-center  justify-center w-full">
           
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -159,7 +159,7 @@ const DashboardLayout = () => {
                 My files
               </button>
 
-              <button className="p-2 text-base font-normal text-gray-900 hover:bg-gray-300 rounded-lg flex items-center justify-start w-full">
+              <button className="p-2 text-base font-normal text-gray-500 hover:bg-gray-300 rounded-lg flex items-center  justify-center w-full">
           
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -178,7 +178,7 @@ const DashboardLayout = () => {
                 My courses
               </button>
 
-              <button className="p-2 text-base font-normal text-gray-900 hover:bg-gray-300 rounded-lg flex items-center justify-start w-full">
+              <button className="p-2 text-base font-normal text-gray-500 hover:bg-gray-300 rounded-lg flex items-center  justify-center w-full">
               
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -201,12 +201,12 @@ const DashboardLayout = () => {
         </aside>
         <div className="absolute w-2 bg-gradient-to-r from-transparent to-gray-100 top-0 bottom-0 right-0 z-0"></div>
       
-        <div className="flex-1 bg-gray-100">
-          <h1 className="text-2xl font-semibold p-10">My bookings</h1>
-          <div className="bg-white p-10">
-            <div className="px-4 py-5 sm:px-6">
+        <div className="flex-1 bg-gray-100 ">
+          <h1 className="text-2xl p-10" style={{ color: '#000', fontFamily: 'Arial, sans-serif', padding: "1.5rem"}}>My bookings</h1>
+          <div className="bg-white p-6 rounded-lg" style={{marginLeft: "inherit"}}>
+            <div className="px-4 py-5 sm:px-6" >
               <div className="flex flex-wrap justify-between items-center">
-                <div className="flex items-center">
+                <div className="flex items-center" >
                   <div className="p-2 bg-gray-200 rounded-lg mr-4">
                    
                     <svg
